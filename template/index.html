@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima-Tempo</title>
+    <link rel="stylesheet" href="../src/__init__.py">
+</head>
+<body>
+    <header>
+        <h1>O clima de {{city}}</h1>
+    </header>
+    <main>
+        <section>
+            <p>
+                {%for c in returno.values()%}
+                    {{c}}
+                    <br>
+                {%endfor%}
+            </p>
+         </section>
+    </main>
+</body>
+</html>
