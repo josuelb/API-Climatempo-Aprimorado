@@ -9,5 +9,5 @@ def home():
     return render_template('index.html', city=iCITY, returno=returno)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
